@@ -25,3 +25,9 @@ end
 
 require "lazy_setup"
 require "polish"
+
+if vim.g.neovide then
+  vim.o.guifont = "Monaspace Neon Var:h16"
+  vim.g.neovide_opacity = 0.6
+  vim.g.neovide_window_blurred = true
+end
