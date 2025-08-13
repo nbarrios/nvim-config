@@ -9,6 +9,7 @@ return {
   { import = "astrocommunity.pack.typescript" },
   { import = "astrocommunity.pack.html-css" },
   { import = "astrocommunity.pack.go" },
+  { import = "astrocommunity.pack.python" },
   { import = "astrocommunity.recipes.vscode" },
   { import = "astrocommunity.recipes.ai" },
   { import = "astrocommunity.completion.copilot-lua" },
