@@ -26,7 +26,7 @@ end
 require "lazy_setup"
 require "polish"
 
-if vim.loop.os_uname().sysname == "Windows" then
+if vim.loop.os_uname().sysname == "Windows_NT" then
   if vim.fn.executable "pwsh" == 1 then
     vim.opt.shell = "pwsh"
   else
